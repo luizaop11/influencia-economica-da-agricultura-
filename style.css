@@ -18,14 +18,24 @@ h5 {
     font-weight: 700;
 }
 
-.lead, .btn-link{
-    color:var(--cor-destaque);
+.lead,
+.btn-link {
+    color: var(--cor-destaque);
     font-weight: 700;
 }
- a, .btn-link:hover {
+
+a,
+.btn-link:hover {
     color: var(--cor-principal)
 }
 
- a:hover {
+a:hover {
     color: var(--cor-destaque);
+
+    .card-img-top {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
 }
