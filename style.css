@@ -37,7 +37,7 @@ a:hover {
     height: 200px !important;
     object-fit: cover;
 
-    .modal-body img {
+   .modal-body:img {
     max-width: 100%;
     height: auto;
     display: block;
